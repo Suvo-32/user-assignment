@@ -1,0 +1,45 @@
+# Laravel & PHP
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.*.backup
+.phpunit.result.cache
+Homestead.yaml
+Homestead.json
+/.idea
+/.vscode
+
+# Laravel specific
+/storage/app/public
+/storage/framework/cache/data
+/storage/logs
+/bootstrap/cache/*.php
+
+# Composer & NPM logs
+composer.lock
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Testing & coverage
+/.phpunit.result.cache
+/coverage
+
+# Laravel Telescope (if used)
+storage/telescope
+
+# Laravel Horizon (if used)
+horizon.log
+
+# Laravel Nova (if used)
+nova-components/
+
+# Ignoring SQLite DBs
+*.sqlite
+*.sqlite3
